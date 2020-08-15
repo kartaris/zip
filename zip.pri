@@ -16,7 +16,7 @@ CONFIG(release, debug|release): {
 }
 
 unix:LIBS += -L$$DEPLOY_LIB_OUTPUT_DIR -lzip
-win32:LIBS += -L$$DEPLOY_LIB_OUTPUT_DIR -lzip
+win32:LIBS += -L$$DEPLOY_LIB_OUTPUT_DIR -lzip0
 
 
 INCLUDEPATH += "$$PWD/src"
