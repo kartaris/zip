@@ -11,6 +11,9 @@ CONFIG += c++17
 TARGET = zip
 TEMPLATE = lib
 
+target.path = /usr/lib64/
+INSTALLS += target
+
 DEFINES += ZIP_LIBRARY
 
 VERSION = 0.1.19
